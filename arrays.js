@@ -12,5 +12,15 @@ function addElementToBeginningOfArray(array, element){
 
 function destructivelyAddElementToBeginningOfArray(array, element){
   array.unshift(element)
-  return array; //This is broken forever?
+  return array;
+}
+
+function addElementToEndOfArray(array,element){
+  newArray = [...array,element]
+  return newArray;
+}
+
+function destructivelyaddElementToEndOfArray(array,element){
+ array.push(element)
+ return array;
 }
