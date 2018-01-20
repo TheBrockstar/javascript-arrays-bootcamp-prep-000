@@ -49,6 +49,6 @@ function removeElementFromEndOfArray(array){
   return newArray;
 }
 
-function acceessElementInArray(array){
+function accessElementInArray(array){
   
 }
